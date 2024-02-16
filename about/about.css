@@ -1,0 +1,71 @@
+
+
+/*  CSS for the About Us page */
+.about-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .team-member p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .contact-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #777; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #555;
+  }
+  @media screen and (max-width: 768px){
+    .team-member img{
+      width: 80px;
+      height: 80px;
+  }
+  .team-member p {
+    margin-top: 7px;
+    font-size: 9px;
+  }
+  }
+  
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <img src="lamp.png" class="lamp" alt="" />
+        <div class="img-section">
+          <img src="fernuture.png" alt="Image" />
+        </div>
+        <div class="form-section">
+          <h2>Sign Up</h2>
+          <form action="" method="post" id="userForm">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" minlength="3" required />
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              minlength="6"
+              required
+            />
+
+            <div class="buttons">
+              <button class="btn" type="submit" aria-label="Submit">
+                Submit
+              </button>
+            </div>
+            <div class="register">
+              <p>
+                You do have an account ?
+                <a href="../sign-in/index.html">Sign In</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

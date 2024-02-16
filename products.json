@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "name": "Comfortable Lounge Chair",
+    "image": "../products_img/Rectangle 33.png",
+    "price": "150",
+    "category": "Furniture",
+    "description": "Relax in style with this comfortable lounge chair.",
+    "stockQuantity": 20
+  },
+  {
+    "id": 1,
+    "name": "Modern Dining Chair",
+    "image": "../products_img/Rectangle 27.png",
+    "price": "80",
+    "category": "Furniture",
+    "description": "Upgrade your dining experience with this modern dining chair.",
+    "stockQuantity": 30
+  },
+  {
+    "id": 2,
+    "name": "Executive Office Chair",
+    "image": "../products_img/Rectangle 28.png",
+    "price": "200",
+    "category": "Office",
+    "description": "Enhance your workspace with this executive office chair.",
+    "stockQuantity": 15
+  },
+  {
+    "id": 3,
+    "name": "Vintage Armchair",
+    "image": "../products_img/Rectangle 32.png",
+    "price": "120",
+    "category": "Furniture",
+    "description": "Add a touch of vintage charm with this elegant armchair.",
+    "stockQuantity": 25
+  },
+  {
+    "id": 4,
+    "name": "Sleek Bar Stool",
+    "image": "../products_img/Rectangle 31.png",
+    "price": "60",
+    "category": "Furniture",
+    "description": "Upgrade your bar area with this sleek and modern bar stool.",
+    "stockQuantity": 20
+  },
+  {
+    "id": 5,
+    "name": "Cozy Bean Bag",
+    "image": "../products_img/Rectangle 26.png",
+    "price": "40",
+    "category": "Furniture",
+    "description": "Create a cozy corner with this comfortable bean bag.",
+    "stockQuantity": 40
+  },
+  {
+    "id": 6,
+    "name": "Classic Rocking Chair",
+    "image": "../products_img/Rectangle 27.png",
+    "price": "90",
+    "category": "Furniture",
+    "description": "Relive classic moments with this timeless rocking chair.",
+    "stockQuantity": 18
+  },
+  {
+    "id": 7,
+    "name": "Elegant Accent Chair",
+    "image": "../products_img/Rectangle 28.png",
+    "price": "110",
+    "category": "Furniture",
+    "description": "Add a touch of elegance with this stylish accent chair.",
+    "stockQuantity": 22
+  },
+  {
+    "id": 8,
+    "name": "Industrial Bar Chair",
+    "image": "../products_img/Rectangle 32.png",
+    "price": "75",
+    "category": "Furniture",
+    "description": "Achieve an industrial look with this unique bar chair.",
+    "stockQuantity": 28
+  },
+  {
+    "id": 9,
+    "name": "Rustic Wooden Chair",
+    "image": "../products_img/Rectangle 31.png",
+    "price": "100",
+    "category": "Furniture",
+    "description": "Bring a touch of nature indoors with this rustic wooden chair.",
+    "stockQuantity": 15
+  },
+  {
+    "id": 10,
+    "name": "Designer Lounge Chair",
+    "image": "../products_img/Rectangle 26.png",
+    "price": "180",
+    "category": "Furniture",
+    "description": "Experience luxury with this designer lounge chair.",
+    "stockQuantity": 12
+  },
+  {
+    "id": 11,
+    "name": "Contemporary Sofa Chair",
+    "image": "../products_img/Rectangle 27.png",
+    "price": "150",
+    "category": "Furniture",
+    "description": "Add a touch of contemporary style with this sofa chair.",
+    "stockQuantity": 25
+  }
+]

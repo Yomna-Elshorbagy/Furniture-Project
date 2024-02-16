@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- //google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- css  -->
+    <link rel="stylesheet" href="../styles/all.css">
+    <link rel="stylesheet" href="../styles/all.min.css">
+    <link rel="stylesheet" href="../styles/products.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="one">
+                <div class="logo"> <span>MOODY STUDIO</span> </div>
+                <div class="header_icons">
+                    <a  onclick="search_prod()"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                    <div style="position: relative;">
+                        <a href="../basket/basket.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                        <span id="prod_count">0</span>
+                    </div>
+                    <div style="position: relative;">
+                    <a href="../wishlist/index.html"><i class="fa-regular fa-heart"></i></a>
+                    <span id="wishlist_count">0</span>
+                </div>
+                </div>
+            </div>
+            <hr class="line">
+            <!-- ------ -->
+            <div class="two">
+                <ul class="links">
+                    <li><a href="../home/home.html">home</a></li>
+                    <li><a href="../products/products.html">PRODUCTS</a></li>
+                    <li><a href="../about/about2.html">ABOUT US</a></li>
+                    <li><a href="#news" id="login">Login</a></li>
+                </ul>
+            </div>
+            <hr class="line">
+            <!-- -------- -->
+            <div class="three">
+                <span> <i class="fa-solid fa-truck-fast"></i> FREE SHIPPING</span>
+                <span> <i class="fa-solid fa-money-bill-trend-up"></i> 100% MONEY BACK</span>
+                <span> <i class="fa-solid fa-headset"></i> SUPPORT 24/7</span>
+            </div>
+        </header>
+        <div class="products">
+            <!-- ---------for search     -->
+             <input type="text" placeholder="Search" class="hide" id="search_input">
+            <!-- -------------- -->
+            <h2 class="all_prducts">ALL PRODUCTS</h2>
+            <div class="grid_box" id="products">
+                
+            </div>
+        </div>
+        <button class="load_btn load_more">LOAD MORE PRODUCTS</button>
+        <button class="load_btn for_admin" id="add_prod">Add New Product</button>
+        <div class="bg hide" id="add_box">
+            
+        </div>
+    </div>
+        
+        <script src="prod.js"></script>
+    </body>
+    </html>

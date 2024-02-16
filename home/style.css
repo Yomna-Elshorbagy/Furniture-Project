@@ -1,0 +1,108 @@
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf') format('truetype');    
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #eef8ff;
+} */
+footer{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    /*background: linear-gradient(to right, #00093c, #2d0b00);*/
+    background: #000;
+    color:  #fff;
+    padding: 70px 0 3px;
+    border-top-right-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.yo-row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.yo-col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.yo-col :nth-child(2) .yo-col :nth-child(3){
+    flex-basis: 15%;
+
+}
+
+.yo-col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: #fff;
+}
+.email{
+    width: fit-contents;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+form{
+    padding-bottom: 15px;
+    display: flix;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input {
+    width: 80%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+.socialicons .fa-brands{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.Copyrights{
+    text-align: center;
+}
